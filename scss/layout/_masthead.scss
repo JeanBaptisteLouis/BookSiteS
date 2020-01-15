@@ -1,0 +1,48 @@
+.masthead {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+  .masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+    text-shadow: 0 0 0.1em $cyan;
+  }
+  .masthead-subheading {
+    font-size: 1.25rem;
+    text-shadow: 0 0 0.1em $cyan;
+  }
+  .masthead-avatar {
+    width: 15rem;
+    text-shadow: 0 0 0.1em $cyan;
+    animation:  transform 50s ease-in-out infinite both alternate, movement 40s ease-in-out infinite both;
+    @keyframes transform {
+      0%,
+    100% { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; } 
+     14% { border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%; } 
+     28% { border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%; } 
+     42% { border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%; } 
+     56% { border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%; } 
+     70% { border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%; } 
+     84% { border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%; } 
+  }
+
+  @keyframes movement {
+      0%,
+    100% { transform: none; }
+     50% { transform: translateY(5%) rotateY(10deg); }
+  }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .masthead {
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+    .masthead-heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+    .masthead-subheading {
+      font-size: 1.5rem;
+    }
+  }
+}
