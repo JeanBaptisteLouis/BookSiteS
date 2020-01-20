@@ -9926,8 +9926,8 @@ form .field textarea {
   text-transform: uppercase;
 }
 
-form .field input[type="text"]#msg, form .field input[type="date"]#msg, form .field input[type="number"]#msg,
-form .field textarea#msg {
+form .field input[type="text"]#message, form .field input[type="date"]#message, form .field input[type="number"]#message,
+form .field textarea#message {
   border-radius: 5px;
   height: 3em;
   padding-bottom: 3em;
@@ -9941,9 +9941,9 @@ form .field textarea.focused {
   outline: none;
 }
 
-form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg, form .field input[type="date"]:focus#msg, form .field input[type="date"].focused#msg, form .field input[type="number"]:focus#msg, form .field input[type="number"].focused#msg,
-form .field textarea:focus#msg,
-form .field textarea.focused#msg {
+form .field input[type="text"]:focus#message, form .field input[type="text"].focused#message, form .field input[type="date"]:focus#message, form .field input[type="date"].focused#message, form .field input[type="number"]:focus#message, form .field input[type="number"].focused#message,
+form .field textarea:focus#message,
+form .field textarea.focused#message {
   padding-bottom: 15em;
 }
 

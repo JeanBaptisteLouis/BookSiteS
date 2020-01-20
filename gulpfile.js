@@ -12,6 +12,8 @@ const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
+const babel = require('gulp-babel');
+const php = require('gulp-connect-php');
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -25,18 +27,17 @@ const banner = ['/*!\n',
   '\n'
 ].join('');
 
-
 // BrowserSync
 function browserSync(done) {
   browsersync.init({
-    server: {
+    proxy:"localhost:8010",
         baseDir: "./",
-        index: "./index.php"
-    },
-    port: 3000
+        open:true,
+        notify:false
   });
   done();
 }
+
 
 // BrowserSync reload
 function browserSyncReload(done) {
@@ -100,10 +101,13 @@ function css() {
 // JS task
 function js() {
   return gulp
-    .src([
-      './js/*.js',
-      '!./js/*.min.js'
-    ])
+  .src([
+    './js/*.js',
+    '!./js/*.min.js'
+  ])
+    .pipe(babel({
+      presets: ["@babel/preset-env"]
+    }))
     .pipe(uglify())
     .pipe(header(banner, {
       pkg: pkg
