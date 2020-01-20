@@ -69,11 +69,11 @@
       </div>
 
       <!-- Masthead Subheading -->
-        <p class="text masthead-subheading text-uppercase mb-0">
-          <span class="word w1">Game-designer</span>
-          <span class="word w2">Developpeur</span>
-          <span class="word w3">Graphiste</span>
-        </p>
+      <p class="text masthead-subheading text-uppercase mb-0">
+        <span class="word w1">Game-designer</span>
+        <span class="word w2">Developpeur</span>
+        <span class="word w3">Graphiste</span>
+      </p>
     </div>
   </header>
 
