@@ -251,7 +251,7 @@
                 <label for="message">Message</label>
                 <span class="ss-icon">check</span>
             </div>
-            <input name="submit" class="button" type="submit" id="sendMessageButton" value="sumbit" data-submit="...Sending" />
+            <input name="submit" class="button" type="submit" id="sendMessageButton" value="ENVOYER" data-submit="...Sending" />
           </form>
     </section>
     <?php 
@@ -261,7 +261,6 @@ require __DIR__ . '\PHPMailer-master/src/Exception.php';
 require __DIR__ . '\PHPMailer-master/src/OAuth.php';
 require __DIR__ . '\PHPMailer-master/src/SMTP.php';
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
 if(isset($_GET['submit'])){
   $nom=$_GET['name'];
   $email=$_GET['email'];

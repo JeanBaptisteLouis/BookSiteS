@@ -30,10 +30,10 @@ const banner = ['/*!\n',
 // BrowserSync
 function browserSync(done) {
   browsersync.init({
-    proxy:"localhost:8010",
-        baseDir: "./",
-        open:true,
-        notify:false
+  proxy :  {
+        target : "localhost:8010", // proxy pour localhost:8080
+        ws : true
+  }
   });
   done();
 }

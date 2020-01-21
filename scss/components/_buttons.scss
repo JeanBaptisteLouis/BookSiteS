@@ -2,6 +2,10 @@
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
+  &:hover {
+    background:$cyan;
+    color: black;
+}
 }
 
 // Custom social buttons
