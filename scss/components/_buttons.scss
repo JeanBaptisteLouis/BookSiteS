@@ -7,7 +7,15 @@
     color: black;
 }
 }
-
+.btn-x2 {
+  border: none !important;
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  &:hover {
+    background:$cyan !important;
+    color: black !important;
+}
+}
 // Custom social buttons
 .btn-social {
   border-radius: 100%;

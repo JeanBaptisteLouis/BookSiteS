@@ -10837,6 +10837,17 @@ a.text-dark:hover, a.text-dark:focus {
   color: black;
 }
 
+.btn-x2 {
+  border: none !important;
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+.btn-x2:hover {
+  background: #66fcf1 !important;
+  color: black !important;
+}
+
 .btn-social {
   -webkit-border-radius: 100%;
   border-radius: 100%;
@@ -10889,6 +10900,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #66fcf1;
+  border: solid 2px cyan !important;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -11127,7 +11139,7 @@ form {
   margin: 0 auto;
   display: inline-block;
   text-align: center;
-  width: 58.33333%;
+  width: 100%;
 }
 
 form .field {
@@ -11185,7 +11197,6 @@ form .field textarea {
   color: #313A3D;
   font-size: 1em;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
 }
 
 form .field input[type="text"]#message, form .field input[type="date"]#message, form .field input[type="number"]#message,

@@ -1,6 +1,6 @@
 // Grid
 @mixin grid($column) {
-  width:(100% / 12) * $column;
+  width:(100% / 7) * $column;
 }
 
 // Transition Ease
@@ -101,7 +101,6 @@ form {
             color:$blue;
             font-size: 1em;
             letter-spacing: 0.05em;
-            text-transform: uppercase;
 
             &#message {
                 border-radius: 5px;
@@ -147,13 +146,13 @@ form {
     // Submit Button
     input[type="submit"] {
       border-radius: 5px;
-        background:$cyan2;
-        color:white;
-        -webkit-appearance: none;
-        border: none;
-        text-transform: uppercase;
-        position:relative;
-        margin-top: 1em;
+      background:$cyan2;
+      color:white;
+      -webkit-appearance: none;
+      border: none;
+      text-transform: uppercase;
+      position:relative;
+      margin-top: 1em;
       padding: 1em 50px;
       font-size: 1.4em;
       letter-spacing: 0.1em;
