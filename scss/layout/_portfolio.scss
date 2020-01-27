@@ -1,7 +1,9 @@
 // Styling for the portfolio grid section
 .portfolio {
+  z-index: 1;
   margin-bottom: -30px;
   .portfolio-item {
+    z-index: 1;
     cursor: pointer;
     position: relative;
     display: flex;
