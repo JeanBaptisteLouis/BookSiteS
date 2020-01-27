@@ -498,7 +498,7 @@ Dans le cadre d’un projet scolaire en groupe qui consiste à réaliser un Part
                 <img class="img-fluid rounded mb-5" src="img/portfolio/AlpinCA.png" alt="">
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5"  style="text-align: justify; text-justify: inter-word;">
-                  Alpin est un concept de jeu naratif de type side-scroller dont l'histoire est encore en cours d'écriture. Mes inspirations pour ce jeu se retrouvent dans des créations comme Limbo et Inside. Il raconte l'histoire d'un alpiniste qui gravie une montagne et au fur et à mesure qu'il progresse dans son ascenssion le monde autour de lui change. Des créatures étrancges font leurs apparitions. Le petit personnage va lui même changer, son corps va se transformer. Est-il victime de délires ou vit-il réèlement ces évenement, vous le découvrirez quand le jeu sera finit. :p
+                  Alpin est un concept de jeu naratif de type side-scroller dont l'histoire est encore en cours d'écriture. Mes inspirations pour ce jeu se retrouvent dans des créations comme Limbo et Inside. Il raconte l'histoire d'un alpiniste qui gravit une montagne. Au fur et à mesure qu'il progresse dans son ascenssion le monde change autour de lui. Des créatures étranges font leurs apparitions. Le petit personnage va lui même changer, son corps va se transformer. Est-il victime de délires dus à l'altitude ou vit-il réèlement ces évenement? Vous le découvrirez quand le jeu sera fini. :p
                 </p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
@@ -538,7 +538,20 @@ Dans le cadre d’un projet scolaire en groupe qui consiste à réaliser un Part
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/Hopis.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5"  style="text-align: justify; text-justify: inter-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5"  style="text-align: justify; text-justify: inter-word;">
+                Hopis est un jeu de rôle de type space opera dont l'univers étendu est encore en cours d'éciture. 
+                Le scénario est simple: Après une guerre nucléaire mondiale, la terre, inhabitable, est désertée 
+                par les derniers humains qui la peulplent. Ils partent à bord d'une station, dernier espoir pour
+                 trouver une nouvelle terre: La station Hopis. Après 243 ans et aucun résultat, la station est de 
+                 retour en orbit autour de la Terre. Petit bémol, seul une très petite partie de la population est
+                  au courant de leur retour. Il s'agit d'une minorité qui vit au centre de la station, les centroliens, 
+                  qui ont un contrôle politique et religieux total sur la station. Cependant, leurs organismes s'étants 
+                  habitués à la faible gravité du centre de la station, il leurs est impossible de survivre au voyage 
+                  vers la terre. Ils gardent donc le reste de la station dans l'ignorance ainsi que dans le mensonge 
+                  d'une terre encore inhabitable. Les joueurs incarnent des individus oubliés, à l'origine stockés en
+                   hybernation pour un jour être utiles à la station. Des ingénieurs, des travailleurs... etc. Ce sera
+                    aux joueurs d'en décider. Ils devront ainsi découvrir le complot et y mettre fin... ou pas.
+              </p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Fermer
@@ -581,7 +594,7 @@ Dans le cadre d’un projet scolaire en groupe qui consiste à réaliser un Part
                 <img class="img-fluid rounded mb-5" src="img/portfolio/ReacteurTesla.gif" alt="">
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5"  style="text-align: justify; text-justify: inter-word;">
-                  Evoco est un projet qui n'as malheuresement pas aboutit car trop ambitieu, il s'agissait d'un jeu multijoueur développé sur la bibliothèque LibGDX en Java. Inspiré des titres Terraria et Starbound pour ce qui est des graphismes, le gameplay en était assez éloigné. Il s'agissait d'un jeu ou deux équipes évoluent sur une petites planetes. L'objectif était de contruire une navette autour d'un noyau et de le protéger afin de quitter la planète en premiers. Il était aussi possible de détruire le noyau adverse pour remporter la partie. Au cours de la partie des météorites tombes sur la carte et détruisent ce qu'elles touchent en s'écrasant, de plus leurs fréquence augmente tout au cours de la partie ce qui pousse les joueurs à évoluer plus vite. 
+                  Evoco est un projet qui n'as malheuresement pas aboutit car trop ambitieu, il s'agissait d'un jeu multijoueur développé sur la bibliothèque LibGDX en Java. Inspiré des titres Terraria et Starbound pour ce qui est des graphismes. Le gameplay quand à lui en était assez éloigné. Il s'agissait d'un jeu où deux équipes évoluent sur une petites planetes. L'objectif était de contruire une navette autour d'un noyau énergétique. Il fallait défendre ce noyau à tout prix afin de quitter la planète en premiers. Il était aussi possible de détruire le noyau adverse pour remporter la partie. Au cours de la partie des météorites destructrices tombent régulièrement sur la carte. Leur fréquence augmentant au cours de la partie, elles poussent les joueurs à évoluer plus vite pour ne pas être détruits.
                 </p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
