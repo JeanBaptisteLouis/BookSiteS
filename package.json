@@ -34,7 +34,7 @@
     "bootstrap": "4.3.1",
     "compass": "^0.1.1",
     "gulp-cli": "^2.2.0",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "jquery.easing": "^1.4.1",
     "jquery.kinetic": "^2.2.4",
     "kinet": "^2.2.1",
